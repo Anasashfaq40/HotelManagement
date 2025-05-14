@@ -52,9 +52,9 @@ function Index() {
              <h1>
                Enjoy Vacations With <span>Luxury Hotel</span>
              </h1>
-             <a href="room-grid.js" className="theme-btn">
+             <Link to="/room-grid" className="theme-btn">
                Explore Our Rooms <i className="far fa-angle-right"></i>
-             </a>
+             </Link>
            </div>
          </div>
          <div className="col-xl-8">
@@ -76,9 +76,9 @@ function Index() {
              <h1>
                Enjoy Vacations With <span>Luxury Hotel</span>
              </h1>
-             <a href="room-grid.js" className="theme-btn">
+             <Link to="/room-grid" className="theme-btn">
                Explore Our Rooms <i className="far fa-angle-right"></i>
-             </a>
+             </Link>
            </div>
          </div>
          <div className="col-xl-8">
@@ -100,9 +100,9 @@ function Index() {
              <h1>
                Enjoy Vacations With <span>Luxury Hotel</span>
              </h1>
-             <a href="room-grid.js" className="theme-btn">
+             <Link to="/room-grid" className="theme-btn">
                Explore Our Rooms <i className="far fa-angle-right"></i>
-             </a>
+             </Link>
            </div>
          </div>
          <div className="col-xl-8">
@@ -124,9 +124,9 @@ function Index() {
              <h1>
                Enjoy Vacations With <span>Luxury Hotel</span>
              </h1>
-             <a href="room-grid.js" className="theme-btn">
+             <Link to="/room-grid" className="theme-btn">
                Explore Our Rooms <i className="far fa-angle-right"></i>
-             </a>
+             </Link>
            </div>
          </div>
          <div className="col-xl-8">
@@ -259,9 +259,9 @@ function Index() {
             </div>
           </div>
           <div className="col-lg-4 text-lg-end">
-            <a className="theme-btn mb-40 wow fadeInRight delay-0-2s" href="room-grid.js">
+            <Link className="theme-btn mb-40 wow fadeInRight delay-0-2s" to="room-grid">
               Explore Rooms <i className="fal fa-angle-right"></i>
-            </a>
+            </Link>
           </div>
         </div>
         {loading ? (
@@ -273,7 +273,7 @@ function Index() {
                 <div className={`room-item wow fadeInUp delay-0-${(index + 1) * 2}s`}>
                   <div className="image">
                     <img src={`http://localhost:5000/uploads/${room.image}`} alt="Room" />
-                    <a className="category" href="room-grid.js">{room.type}</a>
+                    <Link className="category" to="room-grid">{room.type}</Link>
                   </div>
                   <div className="content">
                     <h4>
@@ -282,11 +282,7 @@ function Index() {
                     <ul className="blog-meta">
                       <li>
                         <i className="far fa-bed-alt"></i>
-                        <a href="index.js#">${room.status}</a>
-                      </li>
-                      <li>
-                        <i className="far fa-drafting-compass"></i>
-                        <a href="index.js#">Size : 59ft</a>
+                        <a>{room.status}</a>
                       </li>
                     </ul>
                     <p>
@@ -361,7 +357,7 @@ function Index() {
             <i className="flaticon-stationary-bike"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">Fitness Center</a></h4>
+            <h4><a>Fitness Center</a></h4>
             <p>At vero eos accusamus eustonis simos duc blanditiis praesente tatum</p>
           </div>
         </div>
@@ -372,7 +368,7 @@ function Index() {
             <i className="flaticon-jacuzzi"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">Jacuzzi</a></h4>
+            <h4><a>Jacuzzi</a></h4>
             <p>Libero tempore cum soluta to eligende optio cumque impedit quo minus</p>
           </div>
         </div>
@@ -383,7 +379,7 @@ function Index() {
             <i className="flaticon-swim"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">Swimming Pool</a></h4>
+            <h4><a>Swimming Pool</a></h4>
             <p>Blinded by desirec that cannot foresies the pain and trouble bounde</p>
           </div>
         </div>
@@ -394,7 +390,7 @@ function Index() {
             <i className="flaticon-relax"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">SPA Treatments</a></h4>
+            <h4><a>SPA Treatments</a></h4>
             <p>At vero eos accusamus eustonis simos duc blanditiis praesente tatum</p>
           </div>
         </div>
@@ -405,7 +401,7 @@ function Index() {
             <i className="flaticon-restaurant"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">Food & Restaurants</a></h4>
+            <h4><a>Food & Restaurants</a></h4>
             <p>At vero eos accusamus eustonis simos duc blanditiis praesente tatum</p>
           </div>
         </div>
@@ -416,7 +412,7 @@ function Index() {
             <i className="flaticon-restaurant"></i>
           </div>
           <div className="content">
-            <h4><a href="room-details.js">Transportation</a></h4>
+            <h4><a>Transportation</a></h4>
             <p>At vero eos accusamus eustonis simos duc blanditiis praesente tatum</p>
           </div>
         </div>
@@ -439,7 +435,7 @@ function Index() {
 </div>
 </div>
   {/* Hotel Area start */}
-  <section className="hotel-area py-130 rpy-100 rel z-1">
+  {/* <section className="hotel-area py-130 rpy-100 rel z-1">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-xl-6 col-lg-8 col-md-10">
@@ -547,7 +543,7 @@ function Index() {
     <span></span>
     <span></span>
   </div>
-</section>
+</section> */}
 {/* Hotel Area end */}
 {/* Video Area start */}
 <div className="video-area">

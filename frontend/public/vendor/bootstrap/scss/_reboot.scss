@@ -156,8 +156,8 @@ p {
 
 abbr[title],
 abbr[data-bs-original-title] { // 1
-  text-decoration: underline; // 2
-  text-decoration: underline dotted; // 2
+  // text-decoration: underline; // 2
+  // text-decoration: underline dotted; // 2
   cursor: help; // 3
   text-decoration-skip-ink: none; // 4
 }
@@ -258,15 +258,15 @@ sup { top: -.5em; }
 
 // Links
 
-a {
-  color: $link-color;
-  text-decoration: $link-decoration;
+// a {
+//   color: $link-color;
+//   text-decoration: $link-decoration;
 
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
-}
+//   &:hover {
+//     color: $link-hover-color;
+//     text-decoration: $link-hover-decoration;
+//   }
+// }
 
 // And undo these styles for placeholder links/named anchors (without href).
 // It would be more straightforward to just use a[href] in previous block, but that

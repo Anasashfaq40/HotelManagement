@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-menu .navbar-collapse li a {
+  text-decoration: none;
+}
+
+.theme-btn, a.theme-btn {
+  text-decoration: none;
+}
+
+.theme-btn:hover, a.theme-btn:hover {
+  text-decoration: none;
+}
+
+.menu-phone-number a {
+  text-decoration: none;
+}
+
+.room-item .image .category {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+ul {
+  padding-left: 0 !important;
+}
