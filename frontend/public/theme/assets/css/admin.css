@@ -37,7 +37,7 @@ h1,h2,h3,h4,p{
 .adm-sidebar {
     width: 250px;
     height: 100vh;
-    background-color: #191C24;
+    background-color:rgb(243, 243, 243);
     color: white;
     padding: 20px;
     position: fixed;
@@ -136,7 +136,7 @@ h1,h2,h3,h4,p{
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
-    background-color: #191C24;
+    background-color:rgb(229, 233, 245);
     color: #6C7293;
     position: fixed;
     top: 0;
@@ -228,8 +228,8 @@ h1,h2,h3,h4,p{
 
 
   .adm-footer {
-    background-color: #191C24;
-    color: #6C7293;
+    background-color:rgb(42, 76, 170);
+    color:rgb(255, 255, 255);
     text-align: center;
     padding: 10px 0;
     position: fixed;
