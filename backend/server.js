@@ -30,7 +30,7 @@ app.use("/api/services", serviceRoutes);
 app.use("/api/invoices", invoiceRoutes);
 app.use("/api/issues", maintainanceRoutes);
 app.use("/api/contact", contactRoutes);
-
+app.use("/api/analytics", require("./routes/analytics"));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/uploads", express.static(path.join(__dirname, "routes/uploads")));
 // app.use("/api", bookingRoutes);
