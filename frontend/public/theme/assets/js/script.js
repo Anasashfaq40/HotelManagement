@@ -144,331 +144,331 @@
          
         
         // ## Main Slider
-        if ($('.main-slider-active').length) {
-            $('.main-slider-active').slick({
-                infinite: true,
-                arrows: false,
-                dots: true,
-                fade: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                pauseOnHover: false,
-                slidesToScroll: 1,
-                slidesToShow: 1,
-                appendDots: '.main-slider-dots',
-            });
-        }
+        // if ($('.main-slider-active').length) {
+        //     $('.main-slider-active').slick({
+        //         infinite: true,
+        //         arrows: false,
+        //         dots: true,
+        //         fade: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         pauseOnHover: false,
+        //         slidesToScroll: 1,
+        //         slidesToShow: 1,
+        //         appendDots: '.main-slider-dots',
+        //     });
+        // }
           
         
-        // ## Main Slider Two
-        if ($('.slider-two-active').length) {
-            $('.slider-two-active').slick({
-                infinite: true,
-                arrows: true,
-                dots: false,
-                fade: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                pauseOnHover: false,
-                slidesToScroll: 1,
-                slidesToShow: 1,
-                prevArrow: '<button class="prev-arrow"><i class="fas fa-angle-left"></i></button>',
-                nextArrow: '<button class="next-arrow"><i class="fas fa-angle-right"></i></button>',
-            });
-        }
+        // // ## Main Slider Two
+        // if ($('.slider-two-active').length) {
+        //     $('.slider-two-active').slick({
+        //         infinite: true,
+        //         arrows: true,
+        //         dots: false,
+        //         fade: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         pauseOnHover: false,
+        //         slidesToScroll: 1,
+        //         slidesToShow: 1,
+        //         prevArrow: '<button class="prev-arrow"><i class="fas fa-angle-left"></i></button>',
+        //         nextArrow: '<button class="next-arrow"><i class="fas fa-angle-right"></i></button>',
+        //     });
+        // }
           
         
-        // ## Hotel Carousel
-        if ($('.hotel-carousel-active').length) {
-            $('.hotel-carousel-active').slick({
-                dots: true,
-                infinite: true,
-                autoplay: false,
-                autoplaySpeed: 2000,
-                arrows: false,
-                speed: 1000,
-                focusOnSelect: false,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 991,
-                        settings: {
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
+        // // ## Hotel Carousel
+        // if ($('.hotel-carousel-active').length) {
+        //     $('.hotel-carousel-active').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: false,
+        //         autoplaySpeed: 2000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         focusOnSelect: false,
+        //         slidesToShow: 2,
+        //         slidesToScroll: 1,
+        //         responsive: [
+        //             {
+        //                 breakpoint: 991,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
         
         
-        // ## Testimonials Slider
-        if ($('.testimonial-active').length) {
-            $('.testimonial-active').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                asNavFor: '.testimonial-thums',
-                appendDots: '.testimonial-dots',
-            });
-        }
+        // // ## Testimonials Slider
+        // if ($('.testimonial-active').length) {
+        //     $('.testimonial-active').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         asNavFor: '.testimonial-thums',
+        //         appendDots: '.testimonial-dots',
+        //     });
+        // }
         
-        if ($('.testimonial-thums').length) {
-            $('.testimonial-thums').slick({
-                dots: false,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                speed: 1000,
-                vertical: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                focusOnSelect: true,
-                asNavFor: '.testimonial-active',
-            });
-        }
-        
-        
-        // ## Room Two Carousel
-        if ($('.room-two-active').length) {
-            $('.room-two-active').slick({
-                dots: true,
-                infinite: true,
-                autoplay: false,
-                autoplaySpeed: 2000,
-                arrows: false,
-                speed: 1000,
-                focusOnSelect: false,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 991,
-                        settings: {
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 767,
-                        settings: {
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
+        // if ($('.testimonial-thums').length) {
+        //     $('.testimonial-thums').slick({
+        //         dots: false,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         vertical: true,
+        //         slidesToShow: 4,
+        //         slidesToScroll: 1,
+        //         focusOnSelect: true,
+        //         asNavFor: '.testimonial-active',
+        //     });
+        // }
         
         
-        // ## Gallery Carousel
-        if ($('.gallery-active').length) {
-            $('.gallery-active').slick({
-                dots: false,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: false,
-                speed: 1000,
-                variableWidth: true,
-                focusOnSelect: false,
-                responsive: [
-                    {
-                        breakpoint: 1400,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 3,
-                        }
-                    },
-                    {
-                        breakpoint: 767,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 575,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
+        // // ## Room Two Carousel
+        // if ($('.room-two-active').length) {
+        //     $('.room-two-active').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: false,
+        //         autoplaySpeed: 2000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         focusOnSelect: false,
+        //         slidesToShow: 3,
+        //         slidesToScroll: 1,
+        //         responsive: [
+        //             {
+        //                 breakpoint: 991,
+        //                 settings: {
+        //                     slidesToShow: 2,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 767,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
         
         
-        
-        // ## Testimonials Two Slider
-        if ($('.testimonial-two-active').length) {
-            $('.testimonial-two-active').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                appendDots: '.testimonial-two-dots',
-            });
-        }
-        
-        
-        // ## Services Three Carousel
-        if ($('.services-three-slider').length) {
-            $('.services-three-slider').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 4,
-                variableWidth: false,
-                focusOnSelect: false,
-                responsive: [
-                    {
-                        breakpoint: 1200,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 3,
-                        }
-                    },
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 575,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
-        
-        
-        // ## Testimonials Three Carousel
-        if ($('.testimonials-three-slider').length) {
-            $('.testimonials-three-slider').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 4,
-                variableWidth: false,
-                focusOnSelect: false,
-                responsive: [
-                    {
-                        breakpoint: 1200,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 3,
-                        }
-                    },
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 575,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
+        // // ## Gallery Carousel
+        // if ($('.gallery-active').length) {
+        //     $('.gallery-active').slick({
+        //         dots: false,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 2000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         variableWidth: true,
+        //         focusOnSelect: false,
+        //         responsive: [
+        //             {
+        //                 breakpoint: 1400,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 3,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 767,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 2,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 575,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
         
         
         
-        // ## History Slider
-        if ($('.history-slider-active').length) {
-            $('.history-slider-active').slick({
-                dots: false,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: true,
-                speed: 1000,
-                slidesToShow: 4,
-                variableWidth: false,
-                focusOnSelect: false,
-                prevArrow: '<button class="prev-arrow"><i class="fas fa-angle-left"></i></button>',
-                nextArrow: '<button class="next-arrow"><i class="fas fa-angle-right"></i></button>',
-                responsive: [
-                    {
-                        breakpoint: 1300,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 3,
-                        }
-                    },
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 575,
-                        settings: {
-                            variableWidth: false,
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        }
+        // // ## Testimonials Two Slider
+        // if ($('.testimonial-two-active').length) {
+        //     $('.testimonial-two-active').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         appendDots: '.testimonial-two-dots',
+        //     });
+        // }
         
         
-        // ## Room Details Image Carousel
-        if ($('.room-details-images').length) {
-            $('.room-details-images').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            });
-        }
+        // // ## Services Three Carousel
+        // if ($('.services-three-slider').length) {
+        //     $('.services-three-slider').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 2000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 4,
+        //         variableWidth: false,
+        //         focusOnSelect: false,
+        //         responsive: [
+        //             {
+        //                 breakpoint: 1200,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 3,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 992,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 2,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 575,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
         
         
-        // ## Testimonials Four Carousel
-        if ($('.testimonials-four-slider').length) {
-            $('.testimonials-four-slider').slick({
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                appendDots: '.testimonial-four-dots',
-            });
-        }
+        // // ## Testimonials Three Carousel
+        // if ($('.testimonials-three-slider').length) {
+        //     $('.testimonials-three-slider').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 2000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 4,
+        //         variableWidth: false,
+        //         focusOnSelect: false,
+        //         responsive: [
+        //             {
+        //                 breakpoint: 1200,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 3,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 992,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 2,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 575,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
+        
+        
+        
+        // // ## History Slider
+        // if ($('.history-slider-active').length) {
+        //     $('.history-slider-active').slick({
+        //         dots: false,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 2000,
+        //         arrows: true,
+        //         speed: 1000,
+        //         slidesToShow: 4,
+        //         variableWidth: false,
+        //         focusOnSelect: false,
+        //         prevArrow: '<button class="prev-arrow"><i class="fas fa-angle-left"></i></button>',
+        //         nextArrow: '<button class="next-arrow"><i class="fas fa-angle-right"></i></button>',
+        //         responsive: [
+        //             {
+        //                 breakpoint: 1300,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 3,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 992,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 2,
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 575,
+        //                 settings: {
+        //                     variableWidth: false,
+        //                     slidesToShow: 1,
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // }
+        
+        
+        // // ## Room Details Image Carousel
+        // if ($('.room-details-images').length) {
+        //     $('.room-details-images').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //     });
+        // }
+        
+        
+        // // ## Testimonials Four Carousel
+        // if ($('.testimonials-four-slider').length) {
+        //     $('.testimonials-four-slider').slick({
+        //         dots: true,
+        //         infinite: true,
+        //         autoplay: true,
+        //         autoplaySpeed: 5000,
+        //         arrows: false,
+        //         speed: 1000,
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         appendDots: '.testimonial-four-dots',
+        //     });
+        // }
         
         
         // ## Skillbar
