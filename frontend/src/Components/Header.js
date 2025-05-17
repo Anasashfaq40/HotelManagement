@@ -7,7 +7,7 @@ const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState({
     name: "",
-    profileImage: "theme/assets/images/users/default-profile.png"
+    profileImage: "/theme/assets/images/users/default-profile.png"
   });
   const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ const Header = () => {
     setIsLoggedIn(false);
     setUserData({
       name: "",
-      profileImage: "theme/assets/images/users/default-profile.png"
+      profileImage: "/theme/assets/images/users/default-profile.png"
     });
     toast.success("✅ Logged out successfully!");
     navigate("/");
@@ -33,7 +33,7 @@ const Header = () => {
           const parsedData = JSON.parse(userData);
           setUserData({
             name: parsedData.name,
-            profileImage: parsedData.profileImage || "theme/assets/images/users/default-profile.png"
+            profileImage: parsedData.profileImage || "/theme/assets/images/users/default-profile.png"
           });
           setIsLoggedIn(true);
         } catch (e) {
@@ -43,7 +43,7 @@ const Header = () => {
         setIsLoggedIn(false);
       }
     };
-
+console.log(userData.profileImage);
     // Check immediately on load
     checkAuth();
 

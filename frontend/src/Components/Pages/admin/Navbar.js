@@ -57,12 +57,9 @@ const Navbar = ({ toggleSidebar }) => {
       <button onClick={toggleSidebar} className="adm-toggle-button">
         ☰
       </button>
-      <div className="adm-search-bar">
-        <input type="text" placeholder="Search" />
-      </div>
+      
       <div className="adm-header-icons">
-        <span className="adm-icon">Message</span>
-        <span className="adm-icon">Notification</span>
+     
         <div 
           className="adm-user-profile" 
           onClick={toggleDropdown}
