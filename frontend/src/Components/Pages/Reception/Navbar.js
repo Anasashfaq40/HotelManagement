@@ -45,12 +45,9 @@ const Navbar = ({ toggleSidebar }) => {
       <button onClick={toggleSidebar} className="rec-toggle-button">
         ☰
       </button>
-      <div className="rec-search-bar">
-        <input type="text" placeholder="Search" />
-      </div>
+      
       <div className="rec-header-icons">
-        <span className="rec-icon">Message</span>
-        <span className="rec-icon">Notification</span>
+       
         <div 
           className="rec-user-profile" 
           onMouseEnter={toggleDropdown} 

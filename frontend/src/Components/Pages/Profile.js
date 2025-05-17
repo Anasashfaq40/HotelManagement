@@ -790,13 +790,13 @@ const Profile = () => {
               <NavLink to="/dashboard" className="use-nav-link">
                 <strong>Dashboard</strong>
               </NavLink>
-              <NavLink to="/projects" className="use-nav-link">
+              {/* <NavLink to="/projects" className="use-nav-link">
                 Project
               </NavLink>
               <NavLink to="/team" className="use-nav-link">
                 Team
-              </NavLink>
-              <NavLink to="/reviews" className="use-nav-link">
+              </NavLink> */}
+              {/* <NavLink to="/reviews" className="use-nav-link">
                 Review
               </NavLink>
               <NavLink to="/messages" className="use-nav-link">
@@ -804,7 +804,7 @@ const Profile = () => {
               </NavLink>
               <NavLink to="/settings" className="use-nav-link">
                 Settings
-              </NavLink>
+              </NavLink> */}
             </nav>
           </div>
 
